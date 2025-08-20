@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include "../head.php";?>
+    <?php include "head.php";?>
     <body>
         <div class="main">
             <h1 class="text-center py-2">SELAMAT DATANG DI KALKULATOR EVALUASI PEMDA</h1>
