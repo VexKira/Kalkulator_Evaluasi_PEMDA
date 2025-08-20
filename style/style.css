@@ -1,0 +1,128 @@
+body{
+    background-image: url(../image/6261304.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D8F3FF;
+    opacity: 0.95;
+    border-radius: 65px;
+}
+
+.butn{
+    width: 100px;
+    height: 40px;
+    margin: 3px 0px;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #004D99;
+    transition: background-color 0.3s ease;
+}
+.butn:hover{
+    background-color: #0066cc;
+}
+
+.intro{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.kalku{
+    width: 85%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    background-color: #D8F3FF;
+    opacity: 0.99;
+    border-radius: 65px;
+}
+
+.coldata{
+    width: 60%;
+}
+
+.colhasil{
+    width: 40%;
+}
+
+.fhasil{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: block;
+    border: 0.5px solid gainsboro;
+    border-radius: 5px;
+    background-clip: padding-box;
+    background-color: #ffffff;
+}
+
+.laporan{
+    width: 85%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    background-color: #D8F3FF;
+    opacity: 0.99;
+    border-radius: 65px;
+}
+.coltable{
+    width: 90%;
+}
+
+.coltabton{
+    width: 10%;
+}
+
+.histori{
+    max-height: 550px; 
+    overflow-y: auto; 
+    overflow-x: auto;
+}
+
+th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.chart-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px 0;
+    gap: 15px;
+}
+
+.chartStyle{
+    flex: 1;
+    max-width: 30%;
+    max-height: 400px;
+}
+
+.navbar{
+    background-color: #D8F3FF;
+}
+
+.navbar .nav-link{
+    color: black;
+    font-size: 18px;
+}
