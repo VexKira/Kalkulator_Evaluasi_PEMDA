@@ -16,7 +16,7 @@
                 <a href="#" data-bs-toggle="modal" data-bs-target="#contoh">Klik di sini untuk melihat bagaimana cara perhitungannya</a>
             </p>
             <div class="row mx-auto">
-                <button type="button" class="butn" onclick="location.href='kalkulator.php'">Mulai</button>
+                <button type="button" class="butn" onclick="location.href='../frontend/kalkulator.php'">Mulai</button>
             </div>
         </div>
 
